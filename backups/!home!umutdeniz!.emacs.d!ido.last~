@@ -1,0 +1,86 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/umutdeniz/Documents/finance/" . "analysis/")
+ ("/home/umutdeniz/Documents/youtube/" . "matematik/")
+ ("/home/umutdeniz/Documents/programming/python/" . "investment/")
+ ("/home/umutdeniz/Documents/programming/" . "python/")
+ ("/home/umutdeniz/Documents/iktisat/" . "AUZEF/")
+ ("/home/umutdeniz/Documents/academic/" . "presentations/")
+ ("/home/umutdeniz/" . "Documents/")
+ ("/home/umutdeniz/Documents/" . "finance/")
+ ("/home/" . "umutdeniz/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/umutdeniz/Documents/finance/analysis/"
+ "/home/umutdeniz/Documents/programming/python/investment/"
+ "/home/umutdeniz/.emacs.d/"
+ "/home/umutdeniz/Documents/youtube/matematik/"
+ "/home/umutdeniz/Documents/"
+ "/home/umutdeniz/Desktop/"
+ "/home/umutdeniz/Documents/academic/presentations/"
+ "/home/umutdeniz/Documents/iktisat/AUZEF/sinav/"
+ "/home/umutdeniz/.emacs.d/elpa/ox-reveal-20201211.1518/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "log-2021-01-12.org"
+ "log-2021-01-11.org"
+ "invest_json.py"
+ "log-2021-01-01"
+ "cebir_latex.org"
+ "cebir.org"
+ "algebra.org"
+ "dog and woman.jpg"
+ "investment.py"
+ "webscraping.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/umutdeniz/Documents/finance/analysis/" (24574 32308 634150 128000) "log-2021-01-11.org" "#log-2021-01-11.org#" "../" "log-2021-01-12.org" ".#log-2021-01-11.org" "./")
+
+ ("/home/umutdeniz/" (24574 4206 745725 567000) ".bash_history" ".pam_environment" ".lesshst" ".sudo_as_admin_successful" "Downloads/" ".gnome/" ".mozilla/" "snap/" "Videos/" ".bash_logout" "objdir/" "Public/" ".config/" ".python_history" ".pulse-cookie" "Music/" "Templates/" "Documents/" ".vscode/" ".local/" ".gitconfig" "palliative-care.org" ".emacs.d/" ".virtualenvs/" "../" ".gnupg/" ".steam/" "new text" ".profile" "Desktop/" ".steampath" ".bashrc" "src/" "text" ".bashrc~" ".ssh/" ".cache/" "ls" ".steampid" ".pki/" "Pictures/" "./")
+
+ ("/home/umutdeniz/Documents/programming/" (24571 30069 692627 892000) "app-ideas/" "python/" "projects/" "Justin Seitz - Black Hat Python_ Python Programming for Hackers and Pentesters-No Starch Press (2014).pdf" "c/" "Shon Harris_ Allen Harper_ Daniel Regalado_ Ryan Linn_ Stephen Sims_ Branko Spasojevic_ Linda Martinez Hahaj_ Michael Baucom_ Chris Eagle - Gray Hat Hacking_ The Ethical Hacker’s Handbook-McGraw-Hill .pdf" "web-development/" "../" "Justin Seitz - Gray Hat Python_ Python Programming for Hackers and Reverse Engineers-No Starch Press (2009).pdf" "./")
+
+ ("/home/umutdeniz/.emacs.d/" (24572 42576 429138 418000) "session.109b883641d8c31873160942286020509100000021440085" "snippets/" "session.109c5cfafbe078ea49161004474786870300000018560083" "ido.last~" "session.108f81accbace5adaf160699411022102900000017840081" "session.10fd8cdef3fa25350d161009480475721100000038550081" "session.1014c58494adc6522316059068544974400000023220085" "elpa/" "elpy/" "session.10d2c17f6526469c53160873190417516300000018260082" ".#zamansky.org" "session.10705609b085a187f0160881156762705100000023000084" "init.el" "init.el~" "#log-2021-01-01#" "zamansky.org" "session.10769e7989f1a5f0ac160958604927795500000017750082" "session.10b8fd2fbdca0a2663160723508631431100000018050081" "auto-save-list/" "url/" "../" "session.1078af3c03b4a08be8160632565142091200000019160081" "backups/" ".git/" "ido.last" "#zamansky.org#" "session.1047d8a527823ca46d160856664421395200000021000081" "session.105a5fbae2c6901b87160828993565013800000020130081" "custom.el" "session.107c63dcbd4a6f70a1160615653235139500000016040089" "#init.el#" "places" "session.10e925a75eabc459ec161021557891796600000108820082" "log-2021-01-01" "./")
+
+ ("/home/umutdeniz/Documents/finance/" (24572 17259 753674 587000) "analysis/" "../" "./")
+
+ ("/home/umutdeniz/Documents/" (24572 17259 753674 587000) "programming/" "iktisat/" "courses/" "medicine/" "palliative drawing draft.odg" "pixel-art/" "logbook_Dec_26.org" "logbook_Dec_20.org" "finance/" ".#documentation.yaml" "dog and woman.jpg" "../" "academic/" "glomhst.odp" "youtube/" "./")
+
+ ("/home/umutdeniz/Documents/youtube/matematik/" (24571 7848 355348 249000) "cebir.org" "algebra.org" "../" "cebir_latex.tex" "cebir_latex.org" "cebir_latex.log" "./")
+
+ ("/home/umutdeniz/Desktop/" (24570 8311 844511 149000) "Global Pazaryerlerinde Sipariş Alın Kolayca Satış Yapın _ Shopier_files/" "steam.desktop" "Global Pazaryerlerinde Sipariş Alın Kolayca Satış Yapın _ Shopier.html" "../" "investment.py" "./")
+
+ ("/home/umutdeniz/Documents/youtube/" (24570 1587 144927 191000) "../" "matematik/" "./")
+
+ ("/home/umutdeniz/Documents/programming/python/investment/" (24568 56180 884321 200000) "LICENSE" "#track_stocks.py#" ".gitignore~" "Python.gitignore" "archive/" "../" ".git/" "invest_json.py" "yatirim.json" "README" ".gitignore" "./")
+
+ ("/home/umutdeniz/Documents/iktisat/AUZEF/sinav/" (24565 50471 758820 106000) "../" "./")
+
+ ("/home/umutdeniz/Documents/academic/presentations/" (24565 51338 114037 26000) "new.org" "README.md" "glomeruler-hstt.org" "glomeruler-hstt2.org" "glomeruler-hstt2.html" "../" ".git/" "new.html" "./" "glomeruler-hstt.html")
+
+ ("/home/umutdeniz/Documents/programming/python/" (24524 31932 35552 662000) "info-map/" ".#new_excs.py" "investment/" "../" "./")
+
+ ("/home/umutdeniz/Documents/iktisat/AUZEF/" (24565 45832 656616 787000) "donem_8/" "donem_7/" "../" "donem_6/" "donem_5/" "./")
+
+ ("/home/umutdeniz/Documents/iktisat/" (24565 45906 843229 42000) "AUZEF/" "CI-Principles-of-Macroeconomics-2020A.pdf" "CI-Principles-of-Microeconomics-2020A.pdf" "../" "./")
+
+ ("/home/umutdeniz/.emacs.d/elpa/" (24563 61548 649933 295000) "archives/" "pixel-mode/" "epresent-readme.txt" "ox-json-readme.txt" "org-bullets-readme.txt" "gnupg/" "which-key-20201216.1720/" "js2-mode-readme.txt" "org-bullets-20200317.1740/" "bind-key-20200805.1727/" "yaml-mode-20201109.1026/" "try-20181204.236/" "ox-reveal-20201211.1518/" "js3-mode-readme.txt" "elpy-20201003.2153/" "flatui-dark-theme-readme.txt" "pyvenv-20191202.1039/" "consult-readme.txt" "company-20201028.136/" "yasnippet-20200604.246/" "js2-mode-20200725.112/" "../" "exec-path-from-shell-20201105.2236/" "use-package-20201110.2133/" "web-mode-20201107.1152/" "epresent-20160411.201/" "emmet-mode-20180613.341/" "bufshow-readme.txt" "dired-explorer-readme.txt" "yaml-mode-readme.txt" "dracula-theme-20201120.758/" "better-defaults-20200717.2012/" "sublime-themes-readme.txt" "s-20180406.808/" "emmet-mode-readme.txt" "use-package-readme.txt" "avy-20201226.1734/" "web-mode-readme.txt" "./" "highlight-indentation-20201110.1327/")
+
+ ("/home/umutdeniz/.emacs.d/elpa/ox-reveal-20201211.1518/" (24563 61549 401919 790000) "ox-reveal-autoloads.el" "ox-reveal.elc" "ox-reveal.el" "../" "ox-reveal-pkg.el" "./")
+
+ ("/home/umutdeniz/Documents/academic/" (24563 25319 727619 331000) "pathology.c" "present.tex" "../" ".jpg" ".#kullandigi-ilaclar" "pathology.c~" "palliative-care/" "presentations/" "present.tex~" "present.org" "./")
+
+ ("/home/" (24495 62643 368257 721000) "../" "umutdeniz/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

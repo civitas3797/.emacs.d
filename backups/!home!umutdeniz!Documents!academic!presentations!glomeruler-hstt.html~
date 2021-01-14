@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Umut Deniz Akdag)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="author">Umut Deniz Akdag</h2><p class="date">Created: 2021-01-05 Tue 10:50</p>
+</section>
+<section id="table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orgc49be45">1. Nefron</a>
+<ul>
+<li><a href="#/slide-org8253b89">1.1. Glomerul</a>
+<ul>
+<li><a href="#/slide-orge772542">1.1.1. Afferent arteriyol</a></li>
+<li><a href="#/slide-org667c4cd">1.1.2. Efferent arteriyol</a></li>
+<li><a href="#/slide-org1b64fc9">1.1.3. Bowman kapsulu</a></li>
+<li><a href="#/slide-org5fc3153">1.1.4. Glomeruler membran</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org9701b87">1.2. Tubuller</a>
+<ul>
+<li><a href="#/slide-org55b8283">1.2.1. Prox. tubul</a></li>
+<li><a href="#/slide-org77efa26">1.2.2. Henle</a></li>
+<li><a href="#/slide-org71ffdc2">1.2.3. Dist. tubul</a></li>
+<li><a href="#/slide-orge593cf5">1.2.4. Toplayici kanal</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#/slide-org46edacd">2. Bobrek Fonksiyonlarinin degerlendirilmesi</a>
+<ul>
+<li><a href="#/slide-org8cfb230">2.1. Idrar tetkiki</a>
+<ul>
+<li><a href="#/slide-org70c685c">2.1.1. Dansite - Osmolalite</a></li>
+<li><a href="#/slide-org6b604b5">2.1.2. pH</a></li>
+<li><a href="#/slide-org5a16810">2.1.3. Idrar Mikroskopisi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org036fbd8">2.2. Glomeruler Filtrasyon Degeri (GFR)</a>
+<ul>
+<li><a href="#/slide-org62fa2e1">2.2.1. inulin</a></li>
+<li><a href="#/slide-orgb401f5e">2.2.2. kreatinin</a></li>
+<li><a href="#/slide-org1e87325">2.2.3. serumtatin c</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org6ecd1f6">2.3. Idrar Elektrolitleri</a>
+<ul>
+<li><a href="#/slide-org851a6aa">2.3.1. Na</a></li>
+<li><a href="#/slide-org1d87f0e">2.3.2. K</a></li>
+<li><a href="#/slide-org8e7f830">2.3.3. Cl</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orgb6c0d99">2.4. Radyolojik Goruntuleme</a>
+<ul>
+<li><a href="#/slide-org4b3d1b0">2.4.1. Direkt uriner sistem grafisi</a></li>
+<li><a href="#/slide-orgba75b4d">2.4.2. Intravenoz pyelografi</a></li>
+<li><a href="#/slide-orgf5d9925">2.4.3. Renal USG</a></li>
+<li><a href="#/slide-org02fcf9f">2.4.4. Renal CT</a></li>
+<li><a href="#/slide-orga3bfeb5">2.4.5. Renal Arteriografi</a></li>
+<li><a href="#/slide-org50e3e92">2.4.6. Renal Sintigrafi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orgfa769d6">2.5. Bobrek Biyopsisi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org4f35507">3. Glomeruler Hastaliklar</a>
+<ul>
+<li><a href="#/slide-orgf15cdc7">3.1. Siniflandirma</a>
+<ul>
+<li><a href="#/slide-orgc9b5f1e">3.1.1. Akut Nefritik Sendrom</a></li>
+<li><a href="#/slide-orgb72f848">3.1.2. Nefrotik Sendrom</a></li>
+<li><a href="#/slide-orgd160ca3">3.1.3. Hizli ilerleyen Glomerulonefrit</a></li>
+<li><a href="#/slide-orgd93eb5e">3.1.4. Kronik Nefritik Sendrom</a></li>
+<li><a href="#/slide-org5740238">3.1.5. Asemptomatik hematuri/proteinuri</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org48c6aed">3.2. Minimal Degisiklik Hst.</a>
+<ul>
+<li><a href="#/slide-orgef320f9">3.2.1. Etyoloji:</a></li>
+<li><a href="#/slide-orgdec5c30">3.2.2. Patogenez</a></li>
+<li><a href="#/slide-orgbcc71ab">3.2.3. Klinik</a></li>
+<li><a href="#/slide-org5fb29c0">3.2.4. Patoloji</a></li>
+<li><a href="#/slide-org79beedb">3.2.5. Tani</a></li>
+<li><a href="#/slide-orgac785b4">3.2.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org0f1e214">3.3. Fokal Segmental Glomeruloskleroz</a>
+<ul>
+<li><a href="#/slide-org0e1c3bd">3.3.1. Etyoloji</a></li>
+<li><a href="#/slide-org78ff360">3.3.2. Patogenez</a></li>
+<li><a href="#/slide-orge1e461e">3.3.3. Klinik</a></li>
+<li><a href="#/slide-orgb9546dc">3.3.4. Patoloji</a></li>
+<li><a href="#/slide-org9ad3d65">3.3.5. Tani</a></li>
+<li><a href="#/slide-org067e846">3.3.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org8be851a">3.4. Membranoz Glomerulonefrit</a>
+<ul>
+<li><a href="#/slide-org8bd93e2">3.4.1. Etyoloji</a></li>
+<li><a href="#/slide-org1109d0d">3.4.2. Patogenez</a></li>
+<li><a href="#/slide-orga699828">3.4.3. Klinik</a></li>
+<li><a href="#/slide-org57c2838">3.4.4. Patoloji</a></li>
+<li><a href="#/slide-orgaf3bb85">3.4.5. Tani</a></li>
+<li><a href="#/slide-org4a8b35c">3.4.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org60f8ed3">3.5. Membranoproliferatif Glomerulonefrit</a>
+<ul>
+<li><a href="#/slide-org19b52a4">3.5.1. Etyoloji</a></li>
+<li><a href="#/slide-orgf4b9c72">3.5.2. Patogenez</a></li>
+<li><a href="#/slide-orgdf3a599">3.5.3. Klinik</a></li>
+<li><a href="#/slide-org23c0fca">3.5.4. Patoloji</a></li>
+<li><a href="#/slide-orgf6fc341">3.5.5. Tani</a></li>
+<li><a href="#/slide-org036aaec">3.5.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org56fc42f">3.6. Akut Post-Streptokoksik Glomerulonefrit</a>
+<ul>
+<li><a href="#/slide-orga1602cd">3.6.1. Etyoloji</a></li>
+<li><a href="#/slide-orged07440">3.6.2. Patogenez</a></li>
+<li><a href="#/slide-orgb993a31">3.6.3. Klinik</a></li>
+<li><a href="#/slide-org16e0bb7">3.6.4. Patoloji</a></li>
+<li><a href="#/slide-org3ab6aa6">3.6.5. Tani</a></li>
+<li><a href="#/slide-orgeb8f8c7">3.6.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orgc708d82">3.7. Ig-A Nefropatisi (BERGER Hst.)</a>
+<ul>
+<li><a href="#/slide-org44f2be8">3.7.1. Etyoloji</a></li>
+<li><a href="#/slide-org52ba5cf">3.7.2. Patogenez</a></li>
+<li><a href="#/slide-orga43e407">3.7.3. Klinik</a></li>
+<li><a href="#/slide-org6cdca74">3.7.4. Patoloji</a></li>
+<li><a href="#/slide-orga6ac51e">3.7.5. Tani</a></li>
+<li><a href="#/slide-orge23b118">3.7.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orgd0b9c25">3.8. Rapidly Progresif Glomerulonefrit</a>
+<ul>
+<li><a href="#/slide-org6f85c27">3.8.1. Etyoloji</a></li>
+<li><a href="#/slide-orga297556">3.8.2. Patogenez</a></li>
+<li><a href="#/slide-org199c131">3.8.3. Klinik</a></li>
+<li><a href="#/slide-orgb10e311">3.8.4. Patoloji</a></li>
+<li><a href="#/slide-org049c04d">3.8.5. Tani</a></li>
+<li><a href="#/slide-orgb244f19">3.8.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orge39dc6b">3.9. Akut Endokardit Seyrinde gelisen Glomerulonefrit</a>
+<ul>
+<li><a href="#/slide-org8902995">3.9.1. Etyoloji</a></li>
+<li><a href="#/slide-org2cb25b1">3.9.2. Patogenez</a></li>
+<li><a href="#/slide-org96db3ea">3.9.3. Klinik</a></li>
+<li><a href="#/slide-org197d488">3.9.4. Patoloji</a></li>
+<li><a href="#/slide-orgb464bf3">3.9.5. Tani</a></li>
+<li><a href="#/slide-orgff16da8">3.9.6. Tedavi</a></li>
+</ul>
+</li>
+<li><a href="#/slide-orgddb7132">3.10. Subakut Bakteriyel Endokardit</a>
+<ul>
+<li><a href="#/slide-org8adb002">3.10.1. Etyoloji</a></li>
+<li><a href="#/slide-org26220cc">3.10.2. Patogenez</a></li>
+<li><a href="#/slide-org0ed2cba">3.10.3. Klinik</a></li>
+<li><a href="#/slide-orgf4e5a8e">3.10.4. Patoloji</a></li>
+<li><a href="#/slide-org4a46a10">3.10.5. Tani</a></li>
+<li><a href="#/slide-org907f04a">3.10.6. Tedavi</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section>
+<section id="slide-orgc49be45">
+<h2 id="orgc49be45"><span class="section-number-2">1</span> Nefron</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org8253b89">
+<h3 id="org8253b89"><span class="section-number-3">1.1</span> Glomerul</h3>
+<ul>
+<li>ultrafiltrasyon</li>
+
+</ul>
+</section>
+<section id="slide-orge772542">
+<h4 id="orge772542"><span class="section-number-4">1.1.1</span> Afferent arteriyol</h4>
+</section>
+<section id="slide-org667c4cd">
+<h4 id="org667c4cd"><span class="section-number-4">1.1.2</span> Efferent arteriyol</h4>
+</section>
+<section id="slide-org1b64fc9">
+<h4 id="org1b64fc9"><span class="section-number-4">1.1.3</span> Bowman kapsulu</h4>
+</section>
+<section id="slide-org5fc3153">
+<h4 id="org5fc3153"><span class="section-number-4">1.1.4</span> Glomeruler membran</h4>
+<ul>
+<li>endotelium</li>
+<li>bazal membran</li>
+<li>viss. epitelium (podosit)</li>
+
+</ul>
+<ol class="org-ol">
+<li><a id="org88e6f4e"></a>Yuksek permeabilite<br /></li>
+<li><a id="orge359c1e"></a>Secici gecirgen<br />
+<ol class="org-ol">
+<li><a id="org37ff838"></a>Size selektif<br />
+<ul>
+<li>inulin  ( 5 000 kDa) -&gt; ~100%</li>
+<li>albumin (70 000 kDa) -&gt; ~0%</li>
+
+</ul>
+</li>
+<li><a id="orgf6e8129"></a>Charge selektif<br />
+<ul>
+<li>negatif yuklu proteoglikanlar (or. heparan sulfat)
+<ul>
+<li>cogu proteinler itilir</li>
+<li>minimal change -&gt; bazal memb. neg. yuklerin kaybi -&gt; agir proteinuri (&gt;3.5 g/gun)</li>
+
+</ul></li>
+
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-org9701b87">
+<h3 id="org9701b87"><span class="section-number-3">1.2</span> Tubuller</h3>
+<ul>
+<li>reabsorpsiyon (filtratin 99%'u geri alinir)</li>
+<li>sekresyon</li>
+
+</ul>
+</section>
+<section id="slide-org55b8283">
+<h4 id="org55b8283"><span class="section-number-4">1.2.1</span> Prox. tubul</h4>
+</section>
+<section id="slide-org77efa26">
+<h4 id="org77efa26"><span class="section-number-4">1.2.2</span> Henle</h4>
+</section>
+<section id="slide-org71ffdc2">
+<h4 id="org71ffdc2"><span class="section-number-4">1.2.3</span> Dist. tubul</h4>
+</section>
+<section id="slide-orge593cf5">
+<h4 id="orge593cf5"><span class="section-number-4">1.2.4</span> Toplayici kanal</h4>
+</section>
+</section>
+<section>
+<section id="slide-org46edacd">
+<h2 id="org46edacd"><span class="section-number-2">2</span> Bobrek Fonksiyonlarinin degerlendirilmesi</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org8cfb230">
+<h3 id="org8cfb230"><span class="section-number-3">2.1</span> Idrar tetkiki</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+</section>
+<section id="slide-org70c685c">
+<h4 id="org70c685c"><span class="section-number-4">2.1.1</span> Dansite - Osmolalite</h4>
+<ul>
+<li>Normal: 1015 - 1025</li>
+<li>1010 -&gt; 300 mOsm/kg (izo-osmotik idrar)</li>
+
+</ul>
+</section>
+<section id="slide-org6b604b5">
+<h4 id="org6b604b5"><span class="section-number-4">2.1.2</span> pH</h4>
+<ul>
+<li>Normal: 4 - 8</li>
+<li>pH = 5 -&gt; iyi asidifikasyon</li>
+
+</ul>
+</section>
+<section id="slide-org5a16810">
+<h4 id="org5a16810"><span class="section-number-4">2.1.3</span> Idrar Mikroskopisi</h4>
+
+</section>
+</section>
+<section>
+<section id="slide-org036fbd8">
+<h3 id="org036fbd8"><span class="section-number-3">2.2</span> Glomeruler Filtrasyon Degeri (GFR)</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+</section>
+<section id="slide-org62fa2e1">
+<h4 id="org62fa2e1"><span class="section-number-4">2.2.1</span> inulin</h4>
+</section>
+<section id="slide-orgb401f5e">
+<h4 id="orgb401f5e"><span class="section-number-4">2.2.2</span> kreatinin</h4>
+</section>
+<section id="slide-org1e87325">
+<h4 id="org1e87325"><span class="section-number-4">2.2.3</span> serumtatin c</h4>
+</section>
+</section>
+<section>
+<section id="slide-org6ecd1f6">
+<h3 id="org6ecd1f6"><span class="section-number-3">2.3</span> Idrar Elektrolitleri</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+</section>
+<section id="slide-org851a6aa">
+<h4 id="org851a6aa"><span class="section-number-4">2.3.1</span> Na</h4>
+</section>
+<section id="slide-org1d87f0e">
+<h4 id="org1d87f0e"><span class="section-number-4">2.3.2</span> K</h4>
+</section>
+<section id="slide-org8e7f830">
+<h4 id="org8e7f830"><span class="section-number-4">2.3.3</span> Cl</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgb6c0d99">
+<h3 id="orgb6c0d99"><span class="section-number-3">2.4</span> Radyolojik Goruntuleme</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+</section>
+<section id="slide-org4b3d1b0">
+<h4 id="org4b3d1b0"><span class="section-number-4">2.4.1</span> Direkt uriner sistem grafisi</h4>
+</section>
+<section id="slide-orgba75b4d">
+<h4 id="orgba75b4d"><span class="section-number-4">2.4.2</span> Intravenoz pyelografi</h4>
+</section>
+<section id="slide-orgf5d9925">
+<h4 id="orgf5d9925"><span class="section-number-4">2.4.3</span> Renal USG</h4>
+</section>
+<section id="slide-org02fcf9f">
+<h4 id="org02fcf9f"><span class="section-number-4">2.4.4</span> Renal CT</h4>
+</section>
+<section id="slide-orga3bfeb5">
+<h4 id="orga3bfeb5"><span class="section-number-4">2.4.5</span> Renal Arteriografi</h4>
+</section>
+<section id="slide-org50e3e92">
+<h4 id="org50e3e92"><span class="section-number-4">2.4.6</span> Renal Sintigrafi</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgfa769d6">
+<h3 id="orgfa769d6"><span class="section-number-3">2.5</span> Bobrek Biyopsisi</h3>
+</section>
+</section>
+<section>
+<section id="slide-org4f35507">
+<h2 id="org4f35507"><span class="section-number-2">3</span> Glomeruler Hastaliklar</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgf15cdc7">
+<h3 id="orgf15cdc7"><span class="section-number-3">3.1</span> Siniflandirma</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+</section>
+<section id="slide-orgc9b5f1e">
+<h4 id="orgc9b5f1e"><span class="section-number-4">3.1.1</span> Akut Nefritik Sendrom</h4>
+<ul>
+<li>GFR'de ani azalma</li>
+<li>hematuri (!!)</li>
+<li>hipertansiyon</li>
+<li>oliguri</li>
+<li>idrar protein &lt; 3 g/gun</li>
+
+</ul>
+</section>
+<section id="slide-orgb72f848">
+<h4 id="orgb72f848"><span class="section-number-4">3.1.2</span> Nefrotik Sendrom</h4>
+<ul>
+<li>GFR ve serum albumin genellikle normalken
+<ul>
+<li>proteinuri &gt; 3.5 g/gun</li>
+<li>lipiduri</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgd160ca3">
+<h4 id="orgd160ca3"><span class="section-number-4">3.1.3</span> Hizli ilerleyen Glomerulonefrit</h4>
+<ul>
+<li>Gunler, haftalar icinde gelisen bobrek yetmezligi</li>
+
+</ul>
+<ul>
+<li></li>
+
+</ul>
+</section>
+<section id="slide-orgd93eb5e">
+<h4 id="orgd93eb5e"><span class="section-number-4">3.1.4</span> Kronik Nefritik Sendrom</h4>
+<ul>
+<li>Glomerulonefritlerin uzun donemde vardiklari formdur</li>
+
+</ul>
+</section>
+<section id="slide-org5740238">
+<h4 id="org5740238"><span class="section-number-4">3.1.5</span> Asemptomatik hematuri/proteinuri</h4>
+<ul>
+<li>mikroskopik hematuri</li>
+<li>nefrotik sinirda olmayan proteinuri</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org48c6aed">
+<h3 id="org48c6aed"><span class="section-number-3">3.2</span> Minimal Degisiklik Hst.</h3>
+<ul>
+<li>Cocuklarda nefrotik sendromun en sik sebebi</li>
+
+</ul>
+</section>
+<section id="slide-orgef320f9">
+<h4 id="orgef320f9"><span class="section-number-4">3.2.1</span> Etyoloji:</h4>
+<ul>
+<li>%70 idiopatik</li>
+<li>sekonder vakalarin cogu malinite, ilaclar, atopik hst.</li>
+
+</ul>
+</section>
+<section id="slide-orgdec5c30">
+<h4 id="orgdec5c30"><span class="section-number-4">3.2.2</span> Patogenez</h4>
+<ul>
+<li>bazal membranda negatif yuklerin, proteoglikanlarin kaybi</li>
+
+</ul>
+</section>
+<section id="slide-orgbcc71ab">
+<h4 id="orgbcc71ab"><span class="section-number-4">3.2.3</span> Klinik</h4>
+<ul>
+<li>Nefrotik sendrom klinigi
+<ul>
+<li>hipoalbuminemi - odem</li>
+<li>hiperlipidemi</li>
+<li>tansiyon ve GFR normal</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org5fb29c0">
+<h4 id="org5fb29c0"><span class="section-number-4">3.2.4</span> Patoloji</h4>
+<ul>
+<li>isik mikroskobunda normal</li>
+<li>elektron mikroskobunda
+<ul>
+<li>kapiller viseral ayaksi cikintilarin fuzyonu</li>
+
+</ul></li>
+<li>immun floresan madde birikimi yok</li>
+
+</ul>
+</section>
+<section id="slide-org79beedb">
+<h4 id="org79beedb"><span class="section-number-4">3.2.5</span> Tani</h4>
+<ul>
+<li>Cocuklarda biyopsi gerekmez
+<ul>
+<li>tedaviye yanitsiz/sik relaps mevcut ise
+<ul>
+<li>FSGS ayrimi icin -&gt; renal bx</li>
+
+</ul></li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orgac785b4">
+<h4 id="orgac785b4"><span class="section-number-4">3.2.6</span> Tedavi</h4>
+<ul>
+<li>Steroid tedavisine yanit cok iyidir.
+<ul>
+<li>cocuklar %80</li>
+<li>yetiskinler %50</li>
+
+</ul></li>
+<li>direncli vaka -&gt; siklofosfamid</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org0f1e214">
+<h3 id="org0f1e214"><span class="section-number-3">3.3</span> Fokal Segmental Glomeruloskleroz</h3>
+<ul>
+<li>yetiskinde sik nefrotik sendrom sebebidir (%20 -25)</li>
+
+</ul>
+</section>
+<section id="slide-org0e1c3bd">
+<h4 id="org0e1c3bd"><span class="section-number-4">3.3.1</span> Etyoloji</h4>
+<ul>
+<li>AIDS hastalarinda en sik glomeruler lezyon.</li>
+<li>Eroin kullanimi</li>
+<li>Orak huc. anemisi</li>
+<li>obezite</li>
+<li>Vesiko-Ureteral Reflu</li>
+<li>malinite</li>
+<li>&#x2026;</li>
+
+</ul>
+</section>
+<section id="slide-org78ff360">
+<h4 id="org78ff360"><span class="section-number-4">3.3.2</span> Patogenez</h4>
+<ul>
+<li>glomeruler epitelyal hucre harabiyeti
+<ul>
+<li>immunolojik mekanizmalar</li>
+<li>hemodinamik mekanizmalar</li>
+<li>biyokimyasal mekanizmalar</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-orge1e461e">
+<h4 id="orge1e461e"><span class="section-number-4">3.3.3</span> Klinik</h4>
+<ul>
+<li>asemptomatik proteinuri</li>
+<li>nefrotik sendrom klinigi</li>
+
+</ul>
+</section>
+<section id="slide-orgb9546dc">
+<h4 id="orgb9546dc"><span class="section-number-4">3.3.4</span> Patoloji</h4>
+</section>
+<section id="slide-org9ad3d65">
+<h4 id="org9ad3d65"><span class="section-number-4">3.3.5</span> Tani</h4>
+</section>
+<section id="slide-org067e846">
+<h4 id="org067e846"><span class="section-number-4">3.3.6</span> Tedavi</h4>
+</section>
+</section>
+<section>
+<section id="slide-org8be851a">
+<h3 id="org8be851a"><span class="section-number-3">3.4</span> Membranoz Glomerulonefrit</h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+</section>
+<section id="slide-org8bd93e2">
+<h4 id="org8bd93e2"><span class="section-number-4">3.4.1</span> Etyoloji</h4>
+</section>
+<section id="slide-org1109d0d">
+<h4 id="org1109d0d"><span class="section-number-4">3.4.2</span> Patogenez</h4>
+</section>
+<section id="slide-orga699828">
+<h4 id="orga699828"><span class="section-number-4">3.4.3</span> Klinik</h4>
+</section>
+<section id="slide-org57c2838">
+<h4 id="org57c2838"><span class="section-number-4">3.4.4</span> Patoloji</h4>
+</section>
+<section id="slide-orgaf3bb85">
+<h4 id="orgaf3bb85"><span class="section-number-4">3.4.5</span> Tani</h4>
+</section>
+<section id="slide-org4a8b35c">
+<h4 id="org4a8b35c"><span class="section-number-4">3.4.6</span> Tedavi</h4>
+</section>
+</section>
+<section>
+<section id="slide-org60f8ed3">
+<h3 id="org60f8ed3"><span class="section-number-3">3.5</span> Membranoproliferatif Glomerulonefrit</h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+</section>
+<section id="slide-org19b52a4">
+<h4 id="org19b52a4"><span class="section-number-4">3.5.1</span> Etyoloji</h4>
+</section>
+<section id="slide-orgf4b9c72">
+<h4 id="orgf4b9c72"><span class="section-number-4">3.5.2</span> Patogenez</h4>
+</section>
+<section id="slide-orgdf3a599">
+<h4 id="orgdf3a599"><span class="section-number-4">3.5.3</span> Klinik</h4>
+</section>
+<section id="slide-org23c0fca">
+<h4 id="org23c0fca"><span class="section-number-4">3.5.4</span> Patoloji</h4>
+</section>
+<section id="slide-orgf6fc341">
+<h4 id="orgf6fc341"><span class="section-number-4">3.5.5</span> Tani</h4>
+</section>
+<section id="slide-org036aaec">
+<h4 id="org036aaec"><span class="section-number-4">3.5.6</span> Tedavi</h4>
+</section>
+</section>
+<section>
+<section id="slide-org56fc42f">
+<h3 id="org56fc42f"><span class="section-number-3">3.6</span> Akut Post-Streptokoksik Glomerulonefrit</h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+</section>
+<section id="slide-orga1602cd">
+<h4 id="orga1602cd"><span class="section-number-4">3.6.1</span> Etyoloji</h4>
+</section>
+<section id="slide-orged07440">
+<h4 id="orged07440"><span class="section-number-4">3.6.2</span> Patogenez</h4>
+</section>
+<section id="slide-orgb993a31">
+<h4 id="orgb993a31"><span class="section-number-4">3.6.3</span> Klinik</h4>
+</section>
+<section id="slide-org16e0bb7">
+<h4 id="org16e0bb7"><span class="section-number-4">3.6.4</span> Patoloji</h4>
+</section>
+<section id="slide-org3ab6aa6">
+<h4 id="org3ab6aa6"><span class="section-number-4">3.6.5</span> Tani</h4>
+</section>
+<section id="slide-orgeb8f8c7">
+<h4 id="orgeb8f8c7"><span class="section-number-4">3.6.6</span> Tedavi</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgc708d82">
+<h3 id="orgc708d82"><span class="section-number-3">3.7</span> Ig-A Nefropatisi (BERGER Hst.)</h3>
+<div class="outline-text-3" id="text-3-7">
+</div>
+</section>
+<section id="slide-org44f2be8">
+<h4 id="org44f2be8"><span class="section-number-4">3.7.1</span> Etyoloji</h4>
+</section>
+<section id="slide-org52ba5cf">
+<h4 id="org52ba5cf"><span class="section-number-4">3.7.2</span> Patogenez</h4>
+</section>
+<section id="slide-orga43e407">
+<h4 id="orga43e407"><span class="section-number-4">3.7.3</span> Klinik</h4>
+</section>
+<section id="slide-org6cdca74">
+<h4 id="org6cdca74"><span class="section-number-4">3.7.4</span> Patoloji</h4>
+</section>
+<section id="slide-orga6ac51e">
+<h4 id="orga6ac51e"><span class="section-number-4">3.7.5</span> Tani</h4>
+</section>
+<section id="slide-orge23b118">
+<h4 id="orge23b118"><span class="section-number-4">3.7.6</span> Tedavi</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgd0b9c25">
+<h3 id="orgd0b9c25"><span class="section-number-3">3.8</span> Rapidly Progresif Glomerulonefrit</h3>
+<div class="outline-text-3" id="text-3-8">
+</div>
+</section>
+<section id="slide-org6f85c27">
+<h4 id="org6f85c27"><span class="section-number-4">3.8.1</span> Etyoloji</h4>
+</section>
+<section id="slide-orga297556">
+<h4 id="orga297556"><span class="section-number-4">3.8.2</span> Patogenez</h4>
+</section>
+<section id="slide-org199c131">
+<h4 id="org199c131"><span class="section-number-4">3.8.3</span> Klinik</h4>
+</section>
+<section id="slide-orgb10e311">
+<h4 id="orgb10e311"><span class="section-number-4">3.8.4</span> Patoloji</h4>
+</section>
+<section id="slide-org049c04d">
+<h4 id="org049c04d"><span class="section-number-4">3.8.5</span> Tani</h4>
+</section>
+<section id="slide-orgb244f19">
+<h4 id="orgb244f19"><span class="section-number-4">3.8.6</span> Tedavi</h4>
+
+</section>
+</section>
+<section>
+<section id="slide-orge39dc6b">
+<h3 id="orge39dc6b"><span class="section-number-3">3.9</span> Akut Endokardit Seyrinde gelisen Glomerulonefrit</h3>
+<div class="outline-text-3" id="text-3-9">
+</div>
+</section>
+<section id="slide-org8902995">
+<h4 id="org8902995"><span class="section-number-4">3.9.1</span> Etyoloji</h4>
+</section>
+<section id="slide-org2cb25b1">
+<h4 id="org2cb25b1"><span class="section-number-4">3.9.2</span> Patogenez</h4>
+</section>
+<section id="slide-org96db3ea">
+<h4 id="org96db3ea"><span class="section-number-4">3.9.3</span> Klinik</h4>
+</section>
+<section id="slide-org197d488">
+<h4 id="org197d488"><span class="section-number-4">3.9.4</span> Patoloji</h4>
+</section>
+<section id="slide-orgb464bf3">
+<h4 id="orgb464bf3"><span class="section-number-4">3.9.5</span> Tani</h4>
+</section>
+<section id="slide-orgff16da8">
+<h4 id="orgff16da8"><span class="section-number-4">3.9.6</span> Tedavi</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgddb7132">
+<h3 id="orgddb7132"><span class="section-number-3">3.10</span> Subakut Bakteriyel Endokardit</h3>
+<div class="outline-text-3" id="text-3-10">
+</div>
+</section>
+<section id="slide-org8adb002">
+<h4 id="org8adb002"><span class="section-number-4">3.10.1</span> Etyoloji</h4>
+</section>
+<section id="slide-org26220cc">
+<h4 id="org26220cc"><span class="section-number-4">3.10.2</span> Patogenez</h4>
+</section>
+<section id="slide-org0ed2cba">
+<h4 id="org0ed2cba"><span class="section-number-4">3.10.3</span> Klinik</h4>
+</section>
+<section id="slide-orgf4e5a8e">
+<h4 id="orgf4e5a8e"><span class="section-number-4">3.10.4</span> Patoloji</h4>
+</section>
+<section id="slide-org4a46a10">
+<h4 id="org4a46a10"><span class="section-number-4">3.10.5</span> Tani</h4>
+</section>
+<section id="slide-org907f04a">
+<h4 id="org907f04a"><span class="section-number-4">3.10.6</span> Tedavi</h4>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

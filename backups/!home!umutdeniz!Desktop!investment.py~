@@ -1,0 +1,58 @@
+import json
+import os
+import yfinance as yf
+import datetime
+
+
+# Take the filename and return the absolute path
+def makePath(filename):
+    return (os.getcwd() + '/' + filename)
+
+
+# Read the data from the file and return it  as a dictionary
+def readJSON(filename):
+    path = makePath(filename)
+    json_file = open(path, 'r', encoding='utf-8')
+    data = json.load(json_file)
+    json_file.close()
+    return (data)
+
+
+# Take the dictionary and write it to the file
+def writeJSON(data, filename):
+    path = makePath(filename)
+    json_file = open(path, 'w', encoding='utf-8')
+    json.dump(data, json_file, ensure_ascii=False)
+    json_file.close()
+    print('Data has been written to the ' + filename + ' file')
+
+data = {
+    'stocks': {
+        'AKSA', 'JANTS', 'EUHOL', 'YYAPI'}
+    'transactions': {
+        ['2020-01-08', 'BUY', 'AKSA', 10, 14.130]
+        ['date', 'action', 'symbol', 'amount', 'price']
+    }
+    'portfolio': {
+        ['symbol', 'amount', 'average_price']
+    }
+    'analysis':{
+        ['symbol', 'current_profit', '52wkHigh']
+    }
+}
+
+def getStockInfo(symbol):
+    stock = yf.Ticker(symbol + '.IS')
+    info = stock.info
+    name = stock['longName']
+    
+
+# Now we can read and write JSON files
+# And we can return the path of a given filename
+
+# After that we need to do;
+
+# Get data from a user, store that data in a organized way, make use of it and save it for later use and present some information acording to user's need
+
+# 1. Get data from a user
+

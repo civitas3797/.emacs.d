@@ -1,0 +1,39 @@
+Merhaba arkadaslar, bu videoda size bahsetmek istedigim konu USLU SAYILAR 
+
+yani 2^5 veya x^n gibi ifadeler ve bunlarin tabi oldugu kurallar.
+
+Baslarken uslu sayi nedir ondan biraz bahsedelim.
+
+Uslu sayi dedigimizde, 2^5 gibi bir ifadeden bahsediyoruz. Peki ne demek bu 2^5?
+
+2 uzeri 5,,, 2 sayisini 5 kere yan yana yazip carpmak anlamina geliyor.
+
+2^5 = 2*2*2*2*2 (5 tane 2)
+
+benzer sekilde x^n ifadesi de,, x sayisini n kere yan yana yazip carpmak demek
+
+x^n = x*x*...*x (n tane x) 
+
+nasil ki toplama isleminde toplanan, toplanan ve toplam
+
+cikarma isleminde eksilen cikan fark
+
+carpma isleminde carpan carpan carpim ve
+
+bolme isleminde bolunen bolen bolum ve kalan gibi terimler kullaniyorsak
+
+eksponent yani bir sayinin kuvvetini alma isleminde de sayilari tanimlayan terimleri kullaniyoruz
+
+uslu bir ifadede, alttaki sayiya taban ve ustteki sayiya kuvvet veya us diyoruz.
+
+a^b ifadesini  a ussu b, a uzeri b, veya anin b ninci kuvveti diye okuyabiliriz
+
+* Uslu Saylarin Kurallari
+
+** 1. Tabanlari ayni olan iki uslu ifade ile dort islem
+
+Toplama 
+
+3 uzeri 5 ve 3 uzeri 7 sayilarini toplayalim
+
+simdi normalde bu sayilari toplarken 
